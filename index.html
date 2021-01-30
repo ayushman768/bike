@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>
+        Bikes
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Libre+Franklin&display=swap" rel="stylesheet">
+    <!-- Bootsrap stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="my_body">
+
+    <header>
+
+    </header>
+    <div class="main-my-banner">
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="navigation">
+                            <ul class="navbar-nav nav">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Bikes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!---//col-md-4-->
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <div class="menu">
+                                <div class="first"></div>
+                                <div class="sec"></div>
+                                <div class="third"></div>
+                            </div>
+                            <!---/men-->
+                            <img src="images/logo.svg" alt="" class="logo-img">
+
+                        </div>
+                    </div>
+                    <!---//col-md-4-->
+                    <div class="col-md-4">
+                        <div class="navigation">
+                            <ul class="navbar-nav nav">
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Conatct Us</a></li>
+                                <li><a href="#">Call Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!---//col-md-4-->
+                </div>
+                <!-- //row -->
+            </div>
+            <!-- //contaioner -->
+        </nav>
+        <hr>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="my_object01">
+                            <img src="images/red/front-view (1).png" alt="" class="default">
+                            <img src="images/red/front-view (1).png" alt="" class="tabcontent" id="red">
+                            <img src="images/blue/front-view (2).png" alt="" class="tabcontent" id="blue">
+                            <img src="images/black/front-view (3).png" alt="" class="tabcontent" id="black">
+                        </div>
+                    </div>
+                    <!-- //col-md-6 -->
+                    <div class="col-md-6">
+                        <div class="my_object01">
+                            <div class="col-md-6 col-mob">
+                                <img src="images/red/rear-view.png" alt="">
+
+                            </div>
+                            <!-- //col-md-6 -->
+
+                            <div class="col-md-6 col-mob">
+                                <img src="images/red/side-view (2).png" alt="">
+                            </div>
+                            <!-- //col-md-6 -->
+                            <hr>
+                            <div class="my_color_buton add" id="myhide">
+                                <span class="color-red color_bt" onclick='mytab(event,"red")'></span>
+                                <span class="color-white color_bt" onclick='mytab(event,"white")'></span>
+                                <span class="color-blue color_bt" onclick='mytab(event,"blue")'></span>
+                                <span class="color-black color_bt" onclick='mytab(event,"black")'></span>
+                            </div>
+                            <div class="my_color_buton btn-mob">
+                                <span class="main-btn" onclick="mybtnshow()"></span>
+
+                            </div>
+                        </div>
+                        <!-- //myobject01 -->
+
+                    </div>
+                    <!-- //col-md-6 -->
+                </div>
+                <!-- //row -->
+            </div>
+            <!-- //container -->
+        </section>
+    </div>
+
+
+    <script src="script/java.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+.navigation,
+.logo,
+.section {
+    padding: 10px;
+}
+
+.main-my-banner {
+    background: rgb(33 33 33);
+}
+
+a {
+    color: white!important;
+    font-size: 15px!important;
+}
+
+img,
+.menu {
+    width: 100%;
+}
+
+.color-red {
+    background: rgb(190 80 79);
+}
+
+.color-blue {
+    background: rgb(24 56 95);
+}
+
+.color-black {
+    background: rgb(38 38 38);
+}
+
+.color-white {
+    background: white;
+}
+
+.main-btn {
+    padding: 15px 24px;
+    border-radius: 100%;
+    width: 0%;
+    height: 43px;
+    position: absolute!important;
+    top: 312px;
+    margin: 0px 9px;
+    cursor: pointer;
+    box-shadow: 0px -1px 9px 1px white;
+    right: 250px;
+}
+
+.color-white,
+.color-blue,
+.color-black,
+.color-red {
+    padding: 15px 24px;
+    border-radius: 100%;
+    width: 100%;
+    /* height: 50px; */
+    position: relative;
+    top: 45px;
+    margin: 0px 9px;
+    cursor: pointer;
+    box-shadow: 0px -1px 9px 1px #06060652;
+    right: -148px;
+}
+
+#myhide {
+    display: none;
+}
+
+.tabcontent {
+    display: none;
+}
+
+@media(max-width:1200px) {
+    .navigation {
+        display: none;
+    }
+    .logo {
+        display: flex;
+    }
+    .logo-img {
+        width: 205px;
+        position: absolute;
+        right: 15px;
+    }
+    .col-mob {
+        width: 50%;
+        float: left;
+    }
+    .first,
+    .sec,
+    .third {
+        border: 2px solid rgb(255 255 255);
+        margin: 5px 0px;
+    }
+    .first {
+        width: 10%;
+    }
+    .sec {
+        width: 4%;
+    }
+    .third {
+        width: 2%;
+    }
+    .main-btn {
+        padding: 15px 24px;
+        border-radius: 100%;
+        width: 0%;
+        height: 43px;
+        /* position: relative!important; */
+        top: 224px;
+        margin: 0px 9px;
+        cursor: pointer;
+        box-shadow: 0px -1px 9px 1px white;
+        right: 155px;
+    }
+    .color-white,
+    .color-blue,
+    .color-black,
+    .color-red {
+        padding: 15px 24px;
+        border-radius: 100%;
+        width: 100%;
+        /* height: 50px; */
+        position: relative!important;
+        top: 45px;
+        margin: 0px 9px;
+        cursor: pointer;
+        box-shadow: 0px -1px 9px 1px #06060652;
+        right: -34px;
+    }
+    .btn-mob {
+        padding: 150px;
+    }
+}
